@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="400" viewBox="0 0 660 400">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7F7FB"/><stop offset="1" stop-color="#E9E8F3"/></linearGradient>
+<linearGradient id="ar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8E7BFF"/><stop offset="1" stop-color="#4B2BD6"/></linearGradient>
+</defs>
+<rect width="660" height="400" fill="url(#bg)"/>
+<circle cx="170" cy="190" r="92" fill="#FFFFFF" opacity=".75"/>
+<circle cx="490" cy="190" r="92" fill="#FFFFFF" opacity=".75"/>
+<path d="M282 190 H366" stroke="#8E7BFF" stroke-width="7" stroke-linecap="round" stroke-dasharray="0.1 16"/>
+<path d="M360 172 L382 190 L360 208" fill="none" stroke="#4B2BD6" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="330" y="58" text-anchor="middle" font-family="-apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#1D1B2E">SimInstall</text>
+<text x="330" y="82" text-anchor="middle" font-family="-apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#6B6880">Install iOS Simulator builds with one click</text>
+<text x="330" y="352" text-anchor="middle" font-family="-apple-system, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" fill="#6B6880">Drag SimInstall into Applications to install</text>
+</svg>
