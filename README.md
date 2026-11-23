@@ -16,14 +16,6 @@ Xcode 27's Device Hub no longer accepts drag-and-drop installs. SimInstall bring
 
 ## Install
 
-**Homebrew**
-
-```bash
-brew install --cask pera14/tap/siminstall
-```
-
-**Manual**
-
 Download the latest `SimInstall-x.y.z.dmg` from [Releases](../../releases), open it and drag **SimInstall** to Applications.
 
 Requires macOS 14+ and Xcode (for `xcrun simctl`).
@@ -58,8 +50,6 @@ For signed and notarized builds, add these repository secrets:
 | `APPLE_APP_PASSWORD` | App-specific password from appleid.apple.com |
 
 Without them, the workflow still produces an ad-hoc signed DMG.
-
-To auto-update the Homebrew tap on each release, create a public `pera14/homebrew-tap` repo and add a `TAP_GITHUB_TOKEN` secret (a fine-grained token with Contents: read/write on that repo).
 
 The styled DMG window needs `create-dmg` (`brew install create-dmg`); CI installs it automatically.
 
